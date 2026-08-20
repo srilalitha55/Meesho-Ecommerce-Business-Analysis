@@ -33,24 +33,43 @@ The objective was not only to report these metrics but also to identify potentia
 🛠️ Tools & Technologies
 
 Excel
+
 Data cleaning and validation
+
 PivotTables
+
 Conditional formatting
+
 Business data analysis
+
 SQL
+
 Data exploration
+
 Filtering
+
 Aggregation
+
 GROUP BY
+
 ORDER BY
+
 Aggregate functions
+
 Business-oriented analysis queries
+
 Power BI
+
 Data modeling
+
 DAX measures
+
 KPI development
+
 Interactive dashboard development
+
 Data visualization
+
 Business insight generation
 
 📂 Dataset
@@ -283,11 +302,17 @@ What actions could the business consider?
 Meesho-Ecommerce-Business-Analysis/
 
 │
+
 ├── Dashboard/       # Power BI dashboard screenshots
+
 ├── Data/            # Cleaned dataset
+
 ├── PowerBI/         # Power BI dashboard file
+
 ├── SQL/             # SQL analysis queries
+
 ├── Presentation/    # Project presentation
+
 └── README.md        # Project documentation
 
 🔗 Project Resources
