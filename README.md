@@ -79,7 +79,7 @@ The analysis focuses on:
 
 **[🎞️ View Project Presentation](https://docs.google.com/presentation/d/1iWLoBGOSfGBx0AmgV1u_9SPIVTUzVzTQ/edit?slide=id.p1#slide=id.p1)**
 
-**[🎙️ Watch 5-Minute Project Walkthrough](https://drive.google.com/drive/u/1/folders/1zbTKO30vFuGVZnzB7o0uqaBKMs8t_JaS)**
+**[🎙️ Watch 5-Minute Project Walkthrough](https://drive.google.com/file/d/1BGHuJOpa9MurDQEcBnjhApowI0KOaD5v/view?usp=sharing)**
 
 ---
 
