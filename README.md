@@ -65,11 +65,11 @@ The analysis focuses on:
 
 ### Executive Overview
 
-![Executive Overview](Dashboard/Executive_Overview.png)
+![Executive Overview](https://github.com/srilalitha55/Meesho-Ecommerce-Business-Analysis/blob/main/Dashboard/01-Executive_Overview.png)
 
 ### Business Deep Dive & Performance Drivers
 
-![Business Deep Dive](Dashboard/Business_Deep_Dive.png)
+![Business Deep Dive](https://github.com/srilalitha55/Meesho-Ecommerce-Business-Analysis/blob/main/Dashboard/02-Business_Deep_Dive.png)
 
 ---
 
@@ -77,9 +77,9 @@ The analysis focuses on:
 
 **[📊 View Interactive Power BI Dashboard](YOUR_POWER_BI_DASHBOARD_LINK)**
 
-**[🎞️ View Project Presentation](Presentation/Meesho_Ecommerce_Business_Analysis.pptx)**
+**[🎞️ View Project Presentation](https://docs.google.com/presentation/d/1iWLoBGOSfGBx0AmgV1u_9SPIVTUzVzTQ/edit?slide=id.p1#slide=id.p1)**
 
-**[🎙️ Watch 5-Minute Project Walkthrough](YOUR_GOOGLE_DRIVE_VIDEO_LINK)**
+**[🎙️ Watch 5-Minute Project Walkthrough](https://drive.google.com/drive/u/1/folders/1zbTKO30vFuGVZnzB7o0uqaBKMs8t_JaS)**
 
 ---
 
