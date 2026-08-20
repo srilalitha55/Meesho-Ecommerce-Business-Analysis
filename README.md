@@ -1,202 +1,327 @@
-# Meesho E-Commerce Business Analysis
+📊 Meesho E-Commerce Business Analysis
+📌 Project Overview
 
-## 📌 Project Overview
+This project presents an e-commerce business analysis using a Meesho dataset, with the objective of transforming transactional data into actionable business insights.
 
-This project presents an end-to-end e-commerce business analysis using Excel, SQL, and Power BI.
+The analysis was performed using Excel, SQL, and Power BI to evaluate sales performance, order behavior, returns, category performance, geographic trends, seller performance, discount effectiveness, payment behavior, and product performance.
 
-The objective of the analysis was to transform transactional e-commerce data into meaningful business insights by evaluating sales performance, order behavior, returns, category performance, geographic trends, seller performance, discount effectiveness, payment behavior, and product performance.
+The project follows an end-to-end Business Analyst workflow:
 
-> **Dataset Note:** This is a portfolio case study based on an available e-commerce dataset and does not represent Meesho's internal or confidential business data.
+Data → Cleaning & Validation → SQL Analysis → KPI Development → Dashboard → Business Insights → Recommendations
 
----
+Dataset Note: This is a portfolio case study based on an available e-commerce dataset and does not represent Meesho's internal or confidential business data.
 
-## 🎯 Business Objectives
+🎯 Business Objectives
 
-The analysis focuses on answering key business questions:
+The analysis was designed to answer the following business questions:
 
-- What is the overall sales and order performance?
-- Which product categories contribute the most to sales?
-- Which states generate the highest sales?
-- What is the overall return rate?
-- Which categories and states have higher return rates?
-- Which sellers generate the highest sales?
-- Which sellers have higher return rates?
-- Which discount ranges generate the highest sales?
-- How do payment modes contribute to sales?
-- Which products are the top performers?
+What is the overall sales and order performance?
+Which categories contribute the most to sales?
+Which states generate the highest sales?
+What is the overall return rate?
+Which categories have higher return rates?
+Which states have higher return rates?
+Which sellers generate the highest sales?
+Which sellers have higher return rates?
+Which discount bands generate the highest sales?
+Which payment modes contribute the most sales?
+Which products are the top sales performers?
 
----
+The objective was not only to report these metrics but also to identify potential areas for business investigation and improvement.
 
-## 🛠️ Tools & Technologies
+🛠️ Tools & Technologies
+Excel
+Data cleaning and validation
+PivotTables
+Conditional formatting
+Business data analysis
+SQL
+Data exploration
+Filtering
+Aggregation
+GROUP BY
+ORDER BY
+Aggregate functions
+Business-oriented analysis queries
+Power BI
+Data modeling
+DAX measures
+KPI development
+Interactive dashboard development
+Data visualization
+Business insight generation
+📂 Dataset
 
-### Excel
-- Data cleaning and validation
-- PivotTables
-- Conditional formatting
-- Data analysis
+The dataset contains e-commerce order-level information used to analyze sales, orders, returns, products, sellers, customers, discounts, and payment behavior.
 
-### SQL
-- Data exploration
-- Aggregations
-- GROUP BY
-- WHERE
-- ORDER BY
-- Business analysis queries
+Key fields include:
 
-### Power BI
-- Data modeling
-- DAX measures
-- KPI development
-- Interactive dashboards
-- Data visualization
-- Business insight generation
+Order ID
+Order Date
+Order Status
+Payment Mode
+Category
+Product Name
+Sale Price
+Quantity
+Sales Value
+Discount Percentage
+Customer State
+Seller Name
+Return Status
+Refund Amount
 
----
+The dataset contains 50 orders and 102 units, with total sales value of ₹94,088.
 
-# 📊 Power BI Dashboard
+🔎 Analysis Performed
+1. Sales Performance Analysis
 
-## 1. Executive Overview
+Analyzed:
 
-The Executive Overview provides a high-level view of business performance through:
+Total Sales
+Sales by Category
+Sales by State
+Sales by Seller
+Sales by Product
+Sales by Payment Mode
+Business Question
 
-- Total Sales
-- Total Orders
-- Total Quantity
-- Return Rate
-- Order Status
-- Sales by Category
-- Sales by State
-- Top Sellers by Sales
-- Seller Return Rate
+Which categories, states, sellers, and products are driving sales?
 
-### Key Metrics
+2. Order Analysis
 
-| KPI | Value |
-|---|---:|
-| Total Sales | ₹94K |
-| Total Orders | 50 |
-| Total Quantity | 102 |
-| Return Rate | 30% |
+Analyzed:
 
----
+Total Orders
+Total Quantity
+Order Status
+Orders by Category
+Orders by State
+Orders by Payment Mode
+Business Question
 
-## 2. Business Deep Dive & Performance Drivers
+How are orders distributed across categories, regions, payment modes, and order statuses?
 
-The second dashboard page focuses on identifying performance patterns and potential business drivers.
+3. Return Analysis
 
-It analyzes:
+Analyzed:
 
-- Return Rate by Category
-- Return Rate by Customer State
-- Sales by Discount Band
-- Sales by Payment Mode
-- Top 5 Products by Sales
+Overall Return Rate
+Return Rate by Category
+Return Rate by State
+Seller Return Rate
+Returned Orders
+Refund Amount
+Business Question
 
----
+Where are returns concentrated and which areas require further investigation?
 
-# 💡 Key Business Insights
+4. Discount Analysis
 
-### Sales Performance
+Created discount bands and analyzed:
 
-The dataset generated approximately ₹94K in sales across 50 orders and 102 units.
+Discount Percentage
+Sales by Discount Band
+Business Question
+
+Does a higher discount level correspond to stronger sales performance?
+
+5. Seller Analysis
+
+Analyzed:
+
+Top Sellers by Sales
+Seller Sales Performance
+Seller Return Rate
+Business Question
+
+Which sellers contribute strongly to sales and which sellers may require additional performance investigation?
+
+6. Product Analysis
+
+Analyzed:
+
+Top 5 Products by Sales
+Product-level sales performance
+Business Question
+
+Which products are generating the highest sales value?
+
+📊 Power BI Dashboard
+Executive Overview
+
+The first dashboard provides a high-level view of:
+
+Total Sales
+Total Orders
+Total Quantity
+Return Rate
+Order Status
+Sales by Category
+Sales by State
+Top Sellers by Sales
+Seller Return Rate
+Dashboard Preview
+
+Business Deep Dive & Performance Drivers
+
+The second dashboard focuses on deeper performance analysis:
+
+Return Rate by Category
+Return Rate by State
+Sales by Discount Band
+Sales by Payment Mode
+Top 5 Products by Sales
+Dashboard Preview
+
+💡 Key Business Insights
+1. Overall Sales & Returns
+
+The dataset generated ₹94,088 in sales across 50 orders and 102 units.
 
 The overall return rate is 30%, making returns an important area for further business investigation.
 
-### Category Performance
+2. Category Performance
 
 Women Wear and Men Wear are the strongest sales-contributing categories in the analyzed dataset.
 
-### Geographic Performance
+This makes these categories important areas for inventory planning, promotions, and growth analysis.
 
-Gujarat records the highest sales among the states shown in the dashboard, followed by Karnataka.
+3. Geographic Performance
 
-### Return Performance
+Gujarat records the highest sales among the states shown in the dashboard.
 
-Kids Wear has the highest observed category return rate at 40%.
+This indicates an opportunity to investigate the factors contributing to stronger demand in high-performing regions.
 
-Telangana has the highest observed state return rate at 67%.
+4. Category Return Performance
 
-These results should be treated as signals for further investigation, particularly because the dataset is relatively small.
+Kids Wear records the highest observed category return rate at 40%.
 
-### Discount Analysis
+This could warrant further investigation into factors such as sizing, product descriptions, quality, customer expectations, or fulfillment.
+
+5. Geographic Return Performance
+
+Telangana records the highest observed state return rate at 67% in this dataset.
+
+Because the dataset is relatively small, this should be treated as a signal for further investigation rather than a definitive market-level conclusion.
+
+6. Discount Effectiveness
 
 The 10–20% discount band generated the highest sales in the analyzed dataset.
 
-This can help the business evaluate whether higher discount levels are actually associated with stronger sales performance.
+This suggests that higher discounts do not automatically guarantee stronger sales and highlights the need to evaluate discount effectiveness carefully.
 
-### Payment Behavior
+7. Payment Behavior
 
-COD contributes approximately 56% of sales, while online payments contribute approximately 44%.
+COD contributes 56% of sales, making it an important payment channel within the analyzed dataset.
 
-This indicates that COD remains an important payment channel in the analyzed dataset.
+Understanding payment preferences can support payment strategy and customer experience decisions.
 
-### Product Performance
+8. Product Performance
 
 T-shirt - White 44 is the highest-selling product among the Top 5 products shown in the dashboard.
 
----
+This provides an opportunity to monitor inventory availability and evaluate promotional opportunities for high-performing products.
 
-# 📈 Business Recommendations
+💼 Business Recommendations
+1. Investigate high-return categories
 
-### 1. Investigate high-return categories
+Review sizing, product descriptions, quality, customer expectations, and fulfillment processes for categories with higher return rates.
 
-Review product sizing, descriptions, quality, customer expectations, and fulfillment processes for categories with higher return rates.
+2. Investigate high-return regions
 
-### 2. Investigate high-return regions
+Analyze larger datasets to determine whether high-return states consistently show similar patterns.
 
-Analyze customer and order-level data from high-return states to identify potential geographic or operational patterns.
+3. Review seller performance
 
-### 3. Review seller performance
+Investigate sellers with higher return rates to identify potential product quality, listing, fulfillment, or customer expectation issues.
 
-Investigate sellers with higher return rates to identify potential product quality, fulfillment, or customer expectation issues.
+4. Evaluate discount effectiveness
 
-### 4. Evaluate discount effectiveness
+Compare discounts against sales, order volume, and profitability before increasing discount levels.
 
-Compare discount levels with sales, order volume, and profitability before increasing discount percentages.
+5. Monitor high-performing products
 
-### 5. Monitor high-performing products
+Ensure high-selling products have appropriate inventory availability and evaluate targeted promotional opportunities.
 
-Ensure high-selling products have appropriate inventory availability and consider targeted promotional opportunities.
+📈 Business Analysis Approach
 
----
+The project follows this analytical process:
 
-# 🔗 Interactive Dashboard
+Raw E-Commerce Data
+        ↓
+Data Cleaning & Validation
+        ↓
+Excel Analysis
+        ↓
+SQL Business Analysis
+        ↓
+KPI & DAX Development
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights
+        ↓
+Recommendations
 
-**[View Live Power BI Dashboard](YOUR_POWER_BI_DASHBOARD_LINK)**
+The focus was not only on what happened, but also on identifying:
 
-> Replace the placeholder above with the actual public Power BI dashboard link after publishing the dashboard.
+Where is the business performing well?
+Where are potential problems?
+What should be investigated further?
+What actions could the business consider?
 
----
+📁 Project Structure
+Meesho-Ecommerce-Business-Analysis
+│
+├── Dashboard
+│   ├── Executive_Overview.png
+│   └── Business_Deep_Dive.png
+│
+├── Data
+│   └── cleaned_data.xlsx
+│
+├── PowerBI
+│   └── Meesho_Ecommerce_Business_Analysis.pbix
+│
+├── SQL
+│   └── meesho_analysis.sql
+│
+├── Presentation
+│   └── Meesho_Ecommerce_Business_Analysis.pptx
+│
+└── README.md
+🔗 Project Resources
+📊 Live Power BI Dashboard
 
-# 📂 Project Files
+View Interactive Power BI Dashboard
 
-| Folder | Contents |
-|---|---|
-| `Data/` | Cleaned and analyzed dataset |
-| `SQL/` | SQL queries used for business analysis |
-| `PowerBI/` | Power BI dashboard file |
-| `Dashboard/` | Dashboard screenshots |
-| `Presentation/` | Project presentation |
-| `Video/` | Voice-over dashboard walkthrough |
+Replace the placeholder with your actual public Power BI dashboard link.
 
----
+🎞️ Project Presentation
 
-# 🎥 Project Walkthrough
+View / Download PowerPoint Presentation
 
-A short voice-over presentation is included to explain the dashboard and highlight the key business insights identified from the analysis.
+The presentation summarizes the dashboard findings and business insights.
 
----
+🎙️ Voice-over Project Walkthrough
 
-# 🔍 Business Analysis Approach
+Watch the 5-Minute Project Walkthrough
 
-The project follows a structured analytical approach:
+The video provides a voice-over explanation of the dashboard, key findings, and business recommendations.
 
-**Data → Cleaning → SQL Analysis → KPI Development → Dashboard → Insights → Recommendations**
+Make sure the Google Drive video's sharing setting is Anyone with the link → Viewer before adding the link.
 
-The focus was not only on reporting the numbers, but also on identifying potential business questions and areas that require further investigation.
+📌 Disclaimer
 
----
+This project is a portfolio case study created for learning and professional demonstration purposes using an available e-commerce dataset.
 
-## 📌 Disclaimer
+It does not represent Meesho's internal data, systems, operations, financial information, or confidential business information.
 
-This project is a portfolio case study created for learning and professional demonstration purposes using an available e-commerce dataset. It does not represent Meesho's internal data, systems, operations, or confidential business information.
+👩‍💻 About the Project
+
+This project demonstrates my ability to move from:
+
+Data → Analysis → Insights → Business Recommendations
+
+using Excel, SQL, and Power BI, with a focus on business performance analysis and data-driven decision-making.
