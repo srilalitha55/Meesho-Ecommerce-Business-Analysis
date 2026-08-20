@@ -271,26 +271,17 @@ Where are potential problems?
 What should be investigated further?
 What actions could the business consider?
 
-📁 Project Structure
-Meesho-Ecommerce-Business-Analysis
+## 📁 Project Structure
+
+Meesho-Ecommerce-Business-Analysis/
 │
-├── Dashboard
-│   ├── Executive_Overview.png
-│   └── Business_Deep_Dive.png
-│
-├── Data
-│   └── cleaned_data.xlsx
-│
-├── PowerBI
-│   └── Meesho_Ecommerce_Business_Analysis.pbix
-│
-├── SQL
-│   └── meesho_analysis.sql
-│
-├── Presentation
-│   └── Meesho_Ecommerce_Business_Analysis.pptx
-│
-└── README.md
+├── Dashboard/       # Power BI dashboard screenshots
+├── Data/            # Cleaned dataset
+├── PowerBI/         # Power BI dashboard file
+├── SQL/             # SQL analysis queries
+├── Presentation/    # Project presentation
+└── README.md        # Project documentation
+
 🔗 Project Resources
 📊 Live Power BI Dashboard
 
