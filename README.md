@@ -75,7 +75,7 @@ The analysis focuses on:
 
 ## 🔗 Project Resources
 
-**[📊 View Interactive Power BI Dashboard](YOUR_POWER_BI_DASHBOARD_LINK)**
+**[📊 View Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjU1MmJiOTUtNzY2My00NjRjLWE0MzUtYTY2MzEwMjI1MzQxIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)**
 
 **[🎞️ View Project Presentation](https://docs.google.com/presentation/d/1iWLoBGOSfGBx0AmgV1u_9SPIVTUzVzTQ/edit?slide=id.p1#slide=id.p1)**
 
