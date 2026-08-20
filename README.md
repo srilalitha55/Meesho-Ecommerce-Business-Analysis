@@ -1,4 +1,5 @@
 📊 Meesho E-Commerce Business Analysis
+
 📌 Project Overview
 
 This project presents an e-commerce business analysis using a Meesho dataset, with the objective of transforming transactional data into actionable business insights.
@@ -30,6 +31,7 @@ Which products are the top sales performers?
 The objective was not only to report these metrics but also to identify potential areas for business investigation and improvement.
 
 🛠️ Tools & Technologies
+
 Excel
 Data cleaning and validation
 PivotTables
@@ -50,6 +52,7 @@ KPI development
 Interactive dashboard development
 Data visualization
 Business insight generation
+
 📂 Dataset
 
 The dataset contains e-commerce order-level information used to analyze sales, orders, returns, products, sellers, customers, discounts, and payment behavior.
@@ -74,6 +77,7 @@ Refund Amount
 The dataset contains 50 orders and 102 units, with total sales value of ₹94,088.
 
 🔎 Analysis Performed
+
 1. Sales Performance Analysis
 
 Analyzed:
@@ -148,6 +152,7 @@ Business Question
 Which products are generating the highest sales value?
 
 📊 Power BI Dashboard
+
 Executive Overview
 
 The first dashboard provides a high-level view of:
@@ -175,6 +180,7 @@ Top 5 Products by Sales
 Dashboard Preview
 
 💡 Key Business Insights
+
 1. Overall Sales & Returns
 
 The dataset generated ₹94,088 in sales across 50 orders and 102 units.
@@ -224,6 +230,7 @@ T-shirt - White 44 is the highest-selling product among the Top 5 products shown
 This provides an opportunity to monitor inventory availability and evaluate promotional opportunities for high-performing products.
 
 💼 Business Recommendations
+
 1. Investigate high-return categories
 
 Review sizing, product descriptions, quality, customer expectations, and fulfillment processes for categories with higher return rates.
@@ -274,6 +281,7 @@ What actions could the business consider?
 ## 📁 Project Structure
 
 Meesho-Ecommerce-Business-Analysis/
+
 │
 ├── Dashboard/       # Power BI dashboard screenshots
 ├── Data/            # Cleaned dataset
